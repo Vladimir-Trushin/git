@@ -1,0 +1,18 @@
+configuration commands:
+
+git config --global user.name "Vladimir Trushin"
+git config --global user.mail "vtws21@gmail.com"
+git config --global color.ui true
+
+git add <files>
+flags: -A => all changes
+
+git commit -m "comment"
+git push
+git pull
+
+git log => all tree of commits
+
+git diff               => difference between last commit and no track changes
+git diff --staged      => difference between last commit and track changes
+git giff <hash number> => difference between <hash number> commit and all stage
